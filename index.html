@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    asdf`®`
+    <div id="quiz-container">
+        <h1>일반 지식 퀴즈</h1>
+        <div id="question-container">
+            <p id="question"></p>
+            <ul id="answer-buttons" class="btn-grid"></ul>
+        </div>
+        <button id="next-btn" class="btn">다음 질문</button>
+        <p id="score">점수 : 0</p>
+    </div>
+
+    <script src="./js/quiz-app.js"></script>
 </body>
 </html>
